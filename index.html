@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Javascript modal
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- Button -->
+        <div class="m-1">
+            <button class="button button-primary mdl-open" mdl-target="mdl-modalsample" mdl-outside-close="true">
+                Open Modal 1 ( mdl-outside-close is true )
+            </button>
+        </div>
+        <div class="m-1">
+            <button class="button button-primary mdl-open" mdl-target="mdl-modalsample2">
+                Open Modal 2
+            </button>
+        </div>
+        <div class="m-1">
+            <button class="button button-primary mdl-open" mdl-target="mdl-modalsample3">
+                Open Modal 3
+            </button>
+        </div>
+    </div>
+    <!-- modal 1 -->
+    <div id="mdl-modalsample" class="mdl-component">
+        <div class="mdl-content">
+            <div class="mdl-header">
+                Header
+            </div>
+            <div class="mdl-body">
+                Modal 1
+            </div>
+            <div class="mdl-footer">
+                <button class="button button-primary mdl-close">
+                    Close Modal
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal 2 -->
+    <div id="mdl-modalsample2" class="mdl-component">
+        <div class="mdl-content">
+            <div class="mdl-header">
+                Header
+            </div>
+            <div class="mdl-body">
+                Modal 2
+            </div>
+            <div class="mdl-footer">
+                <button class="button button-primary mdl-close">
+                    Close Modal
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal 3 -->
+    <div id="mdl-modalsample3" class="mdl-component">
+        <div class="mdl-content">
+            <div class="mdl-header">
+                Header
+            </div>
+            <div class="mdl-body">
+                Modal 3
+            </div>
+            <div class="mdl-footer">
+                <button class="button button-primary mdl-close">
+                    Close Modal
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

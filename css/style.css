@@ -1,0 +1,56 @@
+html,body {
+    margin: 0px;
+}
+.main {
+    margin: 1rem;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 0.45rem 0.65rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+.button-primary {
+    background-color: rgba(39, 127, 179,1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.button-primary:hover {
+    background-color: rgba(23, 95, 136, 1);
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal */
+.mdl-component {
+    background-color: rgba(0, 0, 0,0.5);
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+}
+.mdl-component.show {
+    opacity: 1;
+    visibility: visible;
+}
+.mdl-content {
+    padding: 1rem;
+    background-color: white;
+    width: 320px;
+    min-width: 320px;
+    border-radius: 0.75rem;
+    
+}
+.m-1 {
+    margin: 1rem;
+}
